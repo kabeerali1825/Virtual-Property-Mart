@@ -1,0 +1,66 @@
+body {
+    background-image: url("../static/assets/images/data.jpeg");
+    background-size: 90% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    color: #333;
+    max-width: 460px;
+    max-height: 300px;
+    /* Set the maximum width and height of the container */
+    margin: 0 20px;
+    /* Add margin to center the container and create space on the sides */
+}
+
+.centered-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tick-icon {
+    font-size: 48px;
+    color:rgb(128, 0, 102);
+    /* Change tick icon color to blue (#0074D9) */
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.go-home-button {
+    width: 200px;
+    padding: 10px;
+    background-color: rgb(128, 0, 102);
+    /* Change button background color to blue (#0074D9) */
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.go-home-button:hover {
+    background-color: #0040A0;
+    /* Change button background color on hover to a darker blue (#0040A0) */
+}
